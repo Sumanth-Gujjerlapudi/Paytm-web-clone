@@ -1,0 +1,334 @@
+body, button, h1, h2, input, pre, select, textarea {
+    font-family: Inter,sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.logo {
+    width: 100%;
+}
+
+.nav-options {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-options a {
+    text-decoration: none;
+    margin: 1rem;
+    color: #212121;
+    font-weight: 650;
+    font-size: 1.1rem;
+}
+
+.brand-logo {
+    width: 10%;
+    margin: 1rem;
+}
+
+.sign-in {
+    margin: 1.5rem;
+}
+
+.sign-in-btn {
+    border-radius: 3rem;
+    width: 6rem;
+    height: 2.2rem;
+    border: none;
+    background-color: #00baf2;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.learnMore {
+    background: #f6f6f6;
+    padding-top: 0.3rem;
+}
+#learnMore {
+    height: 1.7rem;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.main_page{
+    display: flex;
+    height:70vh;
+}
+
+.main_page_left{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    width:45%;
+    padding:40px 60px 50px 80px;
+}
+a{
+    padding: 5px 5px;
+}
+a:hover{
+      
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 10px  ;
+}
+
+.main_page_left h1{
+    font-size: 30px;
+}
+.main_page_left button{
+    border-radius: 10px;
+    padding:10px 12px;
+    width:70%;
+    color:white;
+    background-color: black;
+}
+
+.main_page_left button:hover{
+    color:black;
+    background-color: white;
+}
+.main_page_right{
+    height:70vh;
+    width:50%;
+    padding-left:350px;
+    padding-top: 35px;
+}
+
+.container-1{
+    padding: 30px 30px 30px 80px;
+    display: flex;
+    flex-direction: column
+}
+
+.recharge_heading{
+    color:white;
+    font-size: 36px;
+    /* font-weight: 20px; */
+    margin-bottom: 10px;
+}
+
+.recharge_cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recharge_card{
+    padding:15px;
+    /* border : 1px solid black; */
+    width:100px;
+}
+
+.recharge_card p {
+    color:white;
+    font-weight: 18px;
+}
+
+.recharge_card:hover{
+    background-color: #3c9fbe;
+    border-radius:5px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:15px;
+}
+
+.payment_cards{
+    border-radius: 10px;
+    display: flex;
+    height:70vh;
+    width:70vw;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.payment_cards_left{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    width:50%;
+    padding:40px 60px 50px 80px;
+}
+
+.payment_cards_left h1{
+    font-size: 30px;
+}
+.payment_cards_left button{
+    border-radius: 10px;
+    padding:10px 12px;
+    width:50%;
+    color:white;
+    background-color: black;
+}
+
+.payment_cards_left button:hover{
+    color:black;
+    background-color: white;
+}
+.payment_cards_right{
+    height:70vh;
+    width:50%;
+}
+
+.container-3{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    padding-left: 130px;
+}
+
+.container-3_left{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    width:70vw;
+    width:35%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding:30px;
+    margin-right: 30px;
+    margin-left:60px;
+}
+
+.container-3_right{
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    width:70vw;
+    width:35%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding:30px;
+}
+
+.container-3_left h1{
+    font-size: 30px;
+}
+.container-3_left button{
+    border-radius: 10px;
+    padding:10px 12px;
+    width:50%;
+    color:white;
+    background-color: black;
+}
+
+.container-3_left button:hover{
+    color:black;
+    background-color: white;
+}
+.container-3_right h1{
+    font-size: 30px;
+}
+.container-3_right button{
+    border-radius: 10px;
+    padding:10px 12px;
+    width:50%;
+    color:white;
+    background-color: black;
+}
+
+.container-3_right button:hover{
+    color:black;
+    background-color: white;
+}
+.container-4{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    padding-left: 130px;
+}
+.heading{
+    width:100%;
+    padding-top:50px;
+    padding-bottom:50px;
+    clear:both;
+    display: flex;
+    align-items: center;
+    padding:10px;
+    padding-left: 10px;
+
+    font-weight: 400px;;
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.cards{
+    width:100%;
+    height:auto;
+    display: flex;
+position:relative;
+
+
+}
+.cardsdiv img{
+ width:180px;
+ 
+}
+/* .cardsdiv{
+    padding-left: 30px;
+} */
+.cardsdiv a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight:300px;
+}
+footer{
+    width:100%;
+    height:170px;
+    background-color: rgb(194, 211, 211);
+    /* margin-top:30px; */
+
+}
+.foot{
+    display:flex;
+     padding:30px;
+    /* margin-top:30px; */ 
+    float:left;
+    
+}
+ footer ul{
+    float:right;
+    line-height: 100px;
+
+}
+footer input[type=button]{
+    margin:30px;
+}
+footer ul li{
+    margin:20px;
+}
+hr{
+    height:1px;
+    background-color:rgb(8, 7, 7);
+    clear:both;
+    margin-top:50px;
+
+}
+input[type=button] {
+    /* margin: 10px;
+    margin-top: 20px; */
+    width: 220px;
+    height: 43px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.end{
+    /* padding: 30px 60px 60px 30px; */
+    height: 70px;
+    margin:30px;
+    float:right;
+    line-height: 100px;
+}
